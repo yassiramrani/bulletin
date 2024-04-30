@@ -2,9 +2,7 @@
 #include<string.h>
 void menu(){
     printf("\n1.calculer la note de matiere");
-   printf("\n2.calculer la moyenne generale");
-   printf("\n3.afficher une bulletin ");
-   printf("\n4.exit");
+   
 }
 void submenu(){
     printf("\n 5. retrour au menu principal \n 4.exit ");
@@ -17,6 +15,7 @@ typedef struct
 }nm;
 
 int main(){
+    printf("helloo");
     int i,j=0,k=0,n,c,coe=0;
     float m=0,no,not=0;
     nm t[20];
